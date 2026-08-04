@@ -16,25 +16,14 @@
             <li><a href="#inicio">inicio</a></li>
             <li><a href="#produtos">produtos</a></li>
             <li><a href="#cadastro">cadastro</a></li>
+            <li><a href="#pagamento">metodo de pagamento</a></li>
         </ol>
     </nav>
     <hr>
-<section id="inicio">
-<h2>Sobre nos</h2>
-<p>nossas bananas sao deliciosas</p>
-
-
-
-
-    
-</section>
-
-
-
-
-
-
-
+    <section id="inicio">
+        <h2>Sobre nos</h2>
+        <p>nossas bananas sao deliciosas</p>
+    </section>
     <hr>
     <section id="produtos">
         <h2>produtos</h2>
@@ -43,7 +32,6 @@
             <li>banana</li>
             <li>caju</li>
         </ul>
-
         <table border="3">
             <thead>
                 <tr>
@@ -58,29 +46,60 @@
                     <td>frutas</td>
                 </tr>
                 <tr>
-<td>banana</td>
-<td>7,90 por kg</td>
-<td>frutas</td>
+                    <td>banana</td>
+                    <td>7,90 por kg</td>
+                    <td>frutas</td>
                 </tr>
-<tr>
-<td>caju</td>
-<td>16,00 por kg</td>
-<td>frutas</td>
-</tr>
+                <tr>
+                    <td>caju</td>
+                    <td>16,00 por kg</td>
+                    <td>frutas</td>
+                </tr>
             </tbody>
             </thead>
         </table>
+    </section>
+    <hr>
+    <section id="cadastro">
+
+        <h2>cadastrar cliente</h2>
+
+        <form action="cadastrar" method="post">
+
+            <input type="radio" name="client-type" id="radio-pf" value="pf">
+            <label for="radio-pf">Pessoa Física</label>
+
+            <input type="radio" name="client-type" id="radio-pj" value="pj">
+            <label for="radio-pj">Pessoa Jurídica</label>
+            <pre>
+    <label for="nome">nome:</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="senha">senha:</label>
+    <input type="password" id="senha" name="senha">
+
+          <button type="submit">cadastrar</button>
+            </pre>
+        </form>
+    </section>
+    <hr>
+    <section id="pagamento">
+        <h2>metodo de pagamento</h2>
 
 
+        <select name="category" id="input-category">
+
+            <option value="" disabled selected hidden>Escolha uma forma de pagamento</option>
+
+            <option value="debito">debito</option>
+
+            <option value="credito">credito</option>
 
 
-
-
-
-
-
-
-
+        </select>
 
 
     </section>
