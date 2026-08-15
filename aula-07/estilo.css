@@ -1,0 +1,50 @@
+body{
+background-color: white;
+padding-top: 40px ;
+
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu li{
+display: inline-block;
+margin-right: 10px;
+
+}
+
+.menu a{
+text-decoration: none;
+padding: 10px 16px;
+
+}
+
+.card {
+background-color: white;
+border-radius: 15px;
+padding: 10px;
+position: relative;
+}
+
+.etiqueta{
+background-color: greenyellow;
+color: white;
+padding: 5px 10px;
+border-radius: 15px;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+#topo{
+position: fixed;
+top:0;
+left: 0;
+width:100%;
+background-color: beige;
+padding: 15px;
+z-index: 100;
+
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estúdio Bem Viver</title>
+
+  <!-- ATIVIDADE 1 · FASE 1: crie o arquivo estilo.css e descomente a linha abaixo -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       CABEÇALHO  →  Atividade 1: menu horizontal + header fixo
+       ========================================================= -->
+  <header id="topo">
+    <h1>Estúdio Bem Viver</h1>
+    <p class="slogan">Pilates, yoga e treino funcional em Canoas</p>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#aulas">Aulas</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =========================================================
+         BANNER  →  Atividade 2: fundo, padding e destaque
+         ========================================================= -->
+    <section id="banner">
+      <h2>Seu corpo agradece</h2>
+      <p>Turmas pequenas, professores atenciosos e horários que caibam na sua rotina.</p>
+      <a href="#contato" class="botao">Agendar aula experimental</a>
+    </section>
+
+    <!-- =========================================================
+         SOBRE  →  Atividade 2: tipografia e listas
+         ========================================================= -->
+    <section id="sobre">
+      <h2>Sobre o estúdio</h2>
+      <p>
+        Abrimos em 2020 com uma ideia simples: aula de qualidade sem academia
+        cheia. Cada turma tem no máximo oito alunos, então o professor consegue
+        corrigir e acompanhar todo mundo.
+      </p>
+      <p>
+        Temos vestiário, armários e um espaço de espera com café. Se você nunca
+        praticou, comece pela aula experimental — é gratuita.
+      </p>
+
+      <h3>Por que treinar com a gente</h3>
+      <ul class="lista-simples">
+        <li>Turmas de até 8 alunos</li>
+        <li>Professores formados em Educação Física</li>
+        <li>Aparelhos revisados a cada seis meses</li>
+        <li>Primeira aula gratuita</li>
+      </ul>
+    </section>
+
+    <!-- =========================================================
+         AULAS  →  Atividade 1: cards lado a lado + etiqueta
+                   Atividade 2: cards, preços, tabela e botões
+         ========================================================= -->
+    <section id="aulas">
+      <h2>Nossas aulas</h2>
+
+      <div class="grade">
+
+        <article class="card">
+          <h3>Pilates Solo</h3>
+          <p>Exercícios no chão com bola, faixa e peso leve. Foco em postura.</p>
+          <p class="preco">R$ 160 / mês</p>
+          <a href="#contato" class="botao">Quero essa</a>
+        </article>
+
+        <article class="card">
+          <h3>Yoga</h3>
+          <p>Alongamento, respiração e relaxamento. Bom para quem vive no estresse.</p>
+          <p class="preco">R$ 140 / mês</p>
+          <a href="#contato" class="botao">Quero essa</a>
+        </article>
+
+        <!-- ATIVIDADE 1 · FASE 4: coloque a etiqueta neste card
+             (crie um <span class="etiqueta">Mais procurada</span> aqui dentro) -->
+        <article class="card destaque">
+          <span class="etiqueta">mais procurada</span>
+            <h3>Funcional</h3>
+          <p>Treino em circuito, com peso do corpo. Queima calorias e ganha força.</p>
+          <p class="preco">R$ 180 / mês</p>
+          <a href="#contato" class="botao">Quero essa</a>
+        </article>
+
+      </div>
+
+      <h3>Horários e valores</h3>
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Aula</th>
+            <th>Dias</th>
+            <th>Horário</th>
+            <th>Mensal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pilates Solo</td>
+            <td>Seg · Qua · Sex</td>
+            <td>07h e 19h</td>
+            <td>R$ 160</td>
+          </tr>
+          <tr>
+            <td>Yoga</td>
+            <td>Ter · Qui</td>
+            <td>08h e 20h</td>
+            <td>R$ 140</td>
+          </tr>
+          <tr>
+            <td>Funcional</td>
+            <td>Seg a Sex</td>
+            <td>06h30 e 18h</td>
+            <td>R$ 180</td>
+          </tr>
+          <tr>
+            <td>Aula experimental</td>
+            <td>A combinar</td>
+            <td>A combinar</td>
+            <td>Gratuita</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Como começar</h3>
+      <ol class="passos">
+        <li>Escolha a aula que combina com você.</li>
+        <li>Fale com a gente pelo formulário ou WhatsApp.</li>
+        <li>Venha fazer a aula experimental gratuita.</li>
+      </ol>
+    </section>
+
+    <!-- =========================================================
+         GALERIA  →  Atividade 2: imagens alinhadas + hover
+         ========================================================= -->
+    <section id="galeria">
+      <h2>Galeria</h2>
+      <p>Nosso espaço e nossas turmas.</p>
+
+      <div class="grade-fotos">
+        <figure class="foto">
+          <img src="https://placehold.co/400x300/4A7C6F/FFFFFF?text=Sala+de+Pilates"
+               alt="Sala de pilates com aparelhos e tatames"
+               width="400" height="300" loading="lazy">
+          <figcaption>Sala de pilates</figcaption>
+        </figure>
+
+        <figure class="foto">
+          <img src="https://placehold.co/400x300/7BA79C/FFFFFF?text=Aula+de+Yoga"
+               alt="Alunos em posição de yoga sobre tapetes"
+               width="400" height="300" loading="lazy">
+          <figcaption>Turma de yoga</figcaption>
+        </figure>
+
+        <figure class="foto">
+          <img src="https://placehold.co/400x300/A8C3BC/2B4740?text=Funcional"
+               alt="Aluno fazendo treino funcional com kettlebell"
+               width="400" height="300" loading="lazy">
+          <figcaption>Treino funcional</figcaption>
+        </figure>
+
+        <figure class="foto">
+          <img src="https://placehold.co/400x300/2B4740/FFFFFF?text=Recepcao"
+               alt="Recepção do estúdio com sofá e balcão de madeira"
+               width="400" height="300" loading="lazy">
+          <figcaption>Nossa recepção</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTATO  →  Atividade 2: formulário estilizado
+         ========================================================= -->
+    <section id="contato">
+      <h2>Fale com a gente</h2>
+
+      <form class="formulario">
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="aula">Aula de interesse</label>
+          <select id="aula" name="aula">
+            <option value="pilates">Pilates Solo</option>
+            <option value="yoga">Yoga</option>
+            <option value="funcional">Funcional</option>
+            <option value="experimental">Só a aula experimental</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4"
+                    placeholder="Conte um pouco sobre seu objetivo..."></textarea>
+        </div>
+
+        <button type="submit" class="botao">Enviar mensagem</button>
+      </form>
+
+      <div class="info">
+        <h3>Onde estamos</h3>
+        <p>Rua Guilherme Schell, 340 — Centro, Canoas/RS</p>
+        <p>Segunda a sexta, das 6h às 21h · Sábado até 12h</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       RODAPÉ  →  Atividade 2: fundo escuro e centralização
+       DESAFIO: crie um botão "voltar ao topo" fixo na tela
+       ========================================================= -->
+  <footer>
+    <p>Estúdio Bem Viver — Canoas/RS</p>
+    <p><a href="#topo">Voltar ao topo</a></p>
+  </footer>
+
+</body>
+
+</html>
