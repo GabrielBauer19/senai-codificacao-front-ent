@@ -53,3 +53,18 @@ body {
   text-align: center;
   z-index: 100;
 }
+
+.botao {
+background-color: white;
+text-decoration: none;
+display: inline-block;
+padding: 12px 24px;
+border-radius: 8px;
+}
+
+.botao:hover {
+background-color: #5f6d8a;
+transition: 0.3s;
+}
+
+
