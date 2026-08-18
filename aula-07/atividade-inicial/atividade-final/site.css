@@ -1,7 +1,7 @@
 body {
-background-color: #5f6d8a;
-font-family: Verdana, sans-serif;
-margin: 100px;
+  background-color: #5f6d8a;
+  font-family: Verdana, sans-serif;
+  margin: 100px;
 }
 
 .menu {
@@ -18,8 +18,8 @@ margin: 100px;
 
 .grade {
   display: grid;
- flex-gap: 16px;
-  flex-rwap: wrap;
+  flex: 1;
+  gap: 16px;
   margin-top: 16px;
 }
 
@@ -42,14 +42,14 @@ margin: 100px;
   border-radius: 6px;
 }
 
-#topo{
-position: fixed;
-top: 0;   
-left: 0;
-width: 100%;
-background-color:#7A2E1E;
-color: white;
-padding: 20px;
-text-align: center;
-z-index: 100;
+#topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7A2E1E;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  z-index: 100;
 }
