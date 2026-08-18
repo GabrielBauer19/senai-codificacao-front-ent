@@ -29,4 +29,27 @@ margin: 100px;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
+  position: relative;
+}
+
+.etiqueta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #7A2E1E;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+#topo{
+position: fixed;
+top: 0;   
+left: 0;
+width: 100%;
+background-color:#7A2E1E;
+color: white;
+padding: 20px;
+text-align: center;
+z-index: 100;
 }
