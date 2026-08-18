@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Forno de Pedra</title>
+
+  <link rel="stylesheet" href="site.css"> 
+</head>
+
+<body>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <!-- PASSO 3: menu horizontal · PASSO 6: header fixo -->
+  <header id="topo">
+    <h1>Forno de Pedra</h1>
+    <p class="slogan">Pizza artesanal em Canoas</p>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#sabores">Sabores</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ BANNER ============ -->
+    <section id="banner">
+      <h2>Massa de fermentação natural</h2>
+      <p>Assada em forno a lenha, do jeito tradicional.</p>
+      <a href="#sabores" class="botao">Ver os sabores</a>
+    </section>
+
+    <!-- ============ SABORES ============ -->
+    <!-- PASSO 4: cards lado a lado · PASSO 5: etiqueta no card -->
+    <section id="sabores">
+      <h2>Nossos sabores</h2>
+
+      <div class="grade">
+
+        <article class="card">
+          <h3>Marguerita</h3>
+          <p>Molho de tomate, muçarela de búfala e manjericão fresco.</p>
+          <p class="preco">R$ 49,00</p>
+          <a href="#contato" class="botao">Pedir</a>
+        </article>
+
+        <article class="card">
+          <h3>Calabresa</h3>
+          <p>Calabresa fatiada, cebola roxa e azeitona preta.</p>
+          <p class="preco">R$ 45,00</p>
+          <a href="#contato" class="botao">Pedir</a>
+        </article>
+
+        <!-- PASSO 5: coloque a etiqueta AQUI DENTRO deste card -->
+        <article class="card destaque">
+          <h3>Quatro Queijos</h3>
+          <p>Muçarela, gorgonzola, parmesão e catupiry.</p>
+          <p class="preco">R$ 55,00</p>
+          <a href="#contato" class="botao">Pedir</a>
+        </article>
+
+      </div>
+
+      <h3>Tamanhos</h3>
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Tamanho</th>
+            <th>Fatias</th>
+            <th>Preço médio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Individual</td>
+            <td>4</td>
+            <td>R$ 29,00</td>
+          </tr>
+          <tr>
+            <td>Média</td>
+            <td>6</td>
+            <td>R$ 45,00</td>
+          </tr>
+          <tr>
+            <td>Grande</td>
+            <td>8</td>
+            <td>R$ 55,00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Como pedir</h3>
+      <ol class="passos">
+        <li>Escolha o sabor e o tamanho.</li>
+        <li>Chame no WhatsApp ou use o formulário.</li>
+        <li>Retire no local ou peça entrega.</li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section id="contato">
+      <h2>Fale com a gente</h2>
+
+      <form class="formulario">
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div class="campo">
+          <label for="fone">Telefone</label>
+          <input type="tel" id="fone" name="fone" placeholder="(51) 99999-9999">
+        </div>
+
+        <div class="campo">
+          <label for="pedido">Seu pedido</label>
+          <textarea id="pedido" name="pedido" rows="3"
+                    placeholder="Ex.: uma grande de calabresa..."></textarea>
+        </div>
+
+        <button type="submit" class="botao">Enviar pedido</button>
+      </form>
+
+      <div class="info">
+        <h3>Onde estamos</h3>
+        <p>Av. Guilherme Schell, 500 — Canoas/RS</p>
+        <p>Terça a domingo, das 18h às 23h</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <!-- DESAFIO: crie um botão fixo "voltar ao topo" -->
+  <footer>
+    <p>Pizzaria Forno de Pedra — Canoas/RS</p>
+    <p><a href="#topo">Voltar ao topo</a></p>
+  </footer>
+
+</body>
+
+</html>

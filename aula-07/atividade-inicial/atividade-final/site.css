@@ -1,0 +1,17 @@
+body {
+background-color: #5f6d8a;
+font-family: Verdana, sans-serif;
+margin: 100px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 16px;
+  text-decoration: none;
+  padding: 10px 16px;
+}
