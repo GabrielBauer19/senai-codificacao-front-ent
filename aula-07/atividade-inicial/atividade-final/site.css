@@ -1,7 +1,10 @@
 body {
-  background-color: #5f6d8a;
+  background-color: #000102;
   font-family: Verdana, sans-serif;
   margin: 100px;
+  font-color: white;
+  line-height: 1.6;
+  padding-top: 200px;
 }
 
 .menu {
@@ -25,7 +28,7 @@ body {
 
 .card {
   flex: 1;
-  background-color: white;
+  background-color: #7A2E1E;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -60,6 +63,7 @@ text-decoration: none;
 display: inline-block;
 padding: 12px 24px;
 border-radius: 8px;
+color: rgb(0, 0, 0);
 }
 
 .botao:hover {
@@ -67,4 +71,102 @@ background-color: #5f6d8a;
 transition: 0.3s;
 }
 
+h1 {
+  color: white;
+}
 
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+#banner {
+  background-color: #925043;
+  padding: 50px 40px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#banner h2 {
+  font-size: large;
+}
+
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabela th{
+  background-color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+.tabela td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+.preco {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.destaque {
+  background-color: #7A2E1E;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 10px solid #ffffff;
+}
+
+.formulario {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
