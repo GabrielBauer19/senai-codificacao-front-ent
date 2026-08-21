@@ -42,6 +42,7 @@ background-color: rgb(151, 188, 245);
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(151, 188, 245);
+
 }
 
 .hero {
@@ -91,3 +92,64 @@ background-color: rgb(113, 113, 255);
 padding: 40px;
 border-radius: 5px;
 }
+
+.passos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.passo {
+flex: 1;
+max-width: 20%;
+}
+
+.numero {
+    font-size: 50px;
+    background-color: rgb(167, 88, 241);
+    border-radius: 10px;
+}
+
+.comunidade {
+display: flex;
+gap: 10px;
+align-items: center;
+flex: 1;
+flex-wrap: wrap;
+}
+
+.comunidade-info {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ .info-item {
+gap: 20px;
+flex: 1;
+ }
+
+ .rodape {
+display: flex;
+align-items: center;
+ }
+
+ .links-rodape {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+ }
+
+ .links-rodape:hover{
+transition-duration: 0.5s;
+color: purple;
+ 
+
+
+ }
+
+ .links-rodape a{
+text-decoration: none;
+color: white;
+ }
