@@ -1,0 +1,93 @@
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #0B1020;
+color: #F5F7FF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: azure;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu a {
+text-decoration: none;
+  border: rgb(6, 97, 202) solid 3px;
+border-radius: 10px;
+padding: 10px;
+background-color: rgb(151, 188, 245);
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    border: rgb(6, 97, 202) solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(151, 188, 245);
+}
+
+.botao-menu {
+ border: rgb(6, 97, 202) solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(151, 188, 245);
+}
+
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 420px;
+background-color: rgb(22, 22, 80);
+}
+
+.hero-conteudo {
+text-align: center;
+max-width: 20%;
+}
+
+.hero-acoes {
+display: flex;
+gap: 50px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.botao {
+border: rgb(6, 97, 202) solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(151, 188, 245);
+}
+
+.botao-secundario {
+    border: rgb(3, 65, 136) solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(103, 164, 255);
+}
+
+.grade-jogos {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.card-jogo {
+flex: 1;
+min-width: 220px;
+background-color: rgb(113, 113, 255);
+padding: 40px;
+border-radius: 5px;
+}
