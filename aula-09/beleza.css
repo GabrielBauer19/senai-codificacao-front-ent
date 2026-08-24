@@ -46,6 +46,7 @@ align-items: center;
 display: flex;
 gap: 20px;
 list-style: none;
+transition: 0.9s;
 }
 .menu a{
     color: white;
