@@ -17,24 +17,28 @@ min-height: 100vh;
 }
 
 .area-header{
-    grid-area: "cabecalho";
+   display: grid;
+    grid-area: cabecalho;
     gap: 15px;
-    background-color: antiquewhite;
+    background-color: #8ad7b6;
     padding: 20px;
     grid-template-columns: auto 1fr;
 
 }
 
 .area-principal{
-grid-area: "main";
+display: grid;
+grid-area: main;
 gap: 15px;
 
 }
 
 .area-rodape{
-grid-area: "rodape";
+display: grid;
+grid-area: rodape;
 gap: 15px;
-
+grid-template-columns: auto 1fr;
+align-items: center;
 }
 
 
@@ -43,12 +47,22 @@ display: flex;
 gap: 20px;
 list-style: none;
 }
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+.menu a:hover{
+    color: green;
+}
+
 
 .logo{
 display: flex;
 justify-content: space-around;
-background-color: #65d7a6;
-
+margin: 0;
+padding: 0;
 }
 
 .grade-servicos{
@@ -65,3 +79,53 @@ transition: 0.9s;
 
 
 }
+.card-servico{
+background-color: #398061;
+border-radius: 30px;
+padding: 20px;
+color: white;
+}
+.card-servico:hover .icone{
+fill: rgb(5, 91, 5);
+transform: scale(1.2);
+}
+.grade-portfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.item-portfolio{
+    justify-content: center;
+    display: flex;
+    aspect-ratio: 1/1;  
+    background-color: #398061;
+    border-radius: 30px;
+}
+.grade-passos{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+}
+
+.secao-sobre{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.sobre-info{
+    display: flex;
+   flex-direction: column;
+    gap: 30px;
+}
+.rodape-links{
+display: flex;
+gap: 20px;
+list-style: none;
+align-items: center;
+justify-content: center;
+
+}
+
