@@ -1,0 +1,9 @@
+body 
+{ font-family: sans-serif; padding: 20px; }
+
+.card 
+{ border: 1px solid #999; border-radius: 8px; padding: 12px; margin: 8px 0; }
+
+.favorito
+ { border-color: gold; background: #fffbe6; }
+
