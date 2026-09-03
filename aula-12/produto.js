@@ -13,17 +13,16 @@ const promo = { ...produtos[0], preco: 19.90 };
 console.log("Original:", produtos[0].preco, "Promoção:", promo.preco);
 
 const container = document.getElementById("lista");
- 
+
 produtos.forEach(produto => {
   const card = document.createElement("div");
   card.classList.add("card");
   card.textContent = formatar(produto);
- 
+
   card.addEventListener("click", () => {
     card.classList.toggle("favorito");
   });
- 
+
   container.appendChild(card);
 });
-
 
