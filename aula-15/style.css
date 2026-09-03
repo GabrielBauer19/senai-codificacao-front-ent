@@ -1,0 +1,14 @@
+body {
+font-family: Arial, sans-serif;
+background: #f1f4f8;
+}
+.card {
+padding: 12px;
+margin-bottom: 8px;
+background: #ffffff;
+border-radius: 6px;
+}
+.card-tag {
+color: #1d7874;
+font-weight: bold;
+}
