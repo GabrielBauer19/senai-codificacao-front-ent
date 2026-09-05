@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Minha Loja Online</title>
+</head>
+<body>
+
+  <!-- HEADER COM CARRINHO -->
+  <header class="header">
+    <h1>🛒 Minha Loja Online</h1>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="carrinho-icon" id="abrirCarrinho">
+      🛍️
+      <span class="carrinho-contador" id="contadorCarrinho">0</span>
+    </div>
+  </header>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- CARRINHO LATERAL -->
+  <aside class="carrinho-container" id="carrinhoContainer">
+    <div class="carrinho-header">
+      Seu Carrinho
+      <button class="fechar-carrinho" id="fecharCarrinho">✕</button>
+    </div>
+    <div class="carrinho-items" id="areaCarrinho">
+      <div class="carrinho-vazio">Carrinho vazio</div>
+    </div>
+    <div class="carrinho-total">
+      Total: R$ <span id="elementoTotal">0.00</span>
+    </div>
+    <button class="btn-finalizar" id="btnFinalizar">Finalizar Compra</button>
+  </aside>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="container">
+    <section class="banner" id="home">
+      <h2>🎉 Promoções Imperdíveis</h2>
+      <p>Os melhores produtos com os melhores preços!</p>
+    </section>
+
+    <section class="products" id="produtos"></section>
+  </main>
+
+  <footer class="footer" id="contato">
+    <p>&copy; 2026 Minha Loja Online - Todos os direitos reservados</p>
+    <p>Desenvolvido com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
